@@ -1,0 +1,162 @@
+{
+  "billing_and_usage": [
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "workspace_id": "7474660555039223",
+      "record_id": "JjE5rRH87DtGVJ-tRZXjx4xV",
+      "sku_name": "PREMIUM_DATABRICKS_STORAGE_US_WEST_OREGON",
+      "cloud": "AWS",
+      "usage_start_time": "2026-10-08 20:00:00",
+      "usage_end_time": "2026-10-08 21:00:00",
+      "usage_quantity": "0.001521800000000000",
+      "usage_unit": "DSU",
+      "identity_metadata": "{\"run_as\":null,\"created_by\":null,\"owned_by\":null,\"run_by\":null}",
+      "custom_tags": "{}",
+      "usage_metadata": "{\"cluster_id\":null,\"job_id\":null,\"warehouse_id\":null,\"instance_pool_id\":null,\"node_type\":null,\"job_run_id\":null,\"notebook_id\":null,\"dlt_pipeline_id\":null,\"endpoint_name\":null,\"endpoint_id\":null,\"dlt_update_id\":null,\"dlt_maintenance_id\":null,\"run_name\":null,\"job_name\":null,\"notebook_path\":null,\"central_clean_room_id\":null,\"source_region\":null,\"destination_region\":null,\"app_id\":null,\"app_name\":null,\"metastore_id\":null,\"private_endpoint_name\":null,\"storage_api_type\":\"TYPE_1\",\"budget_policy_id\":null,\"ai_runtime_pool_id\":null,\"ai_runtime_workload_id\":null,\"uc_table_catalog\":null,\"uc_table_schema\":null,\"uc_table_name\":null,\"database_instance_id\":null,\"sharing_materialization_id\":null,\"schema_id\":null,\"usage_policy_id\":null,\"base_environment_id\":null,\"agent_bricks_id\":null,\"index_id\":null,\"catalog_id\":null,\"project_id\":null,\"branch_id\":null,\"table_id\":null,\"supervisor_agent_id\":null,\"networking_client\":null,\"associated_product\":null,\"recipient_id\":null,\"interactive_source\":null,\"snapshot_id\":null,\"ai_gateway\":null,\"genie\":null,\"data_source\":null,\"operation\":null,\"serverless_compute_id\":null,\"entity_full_name\":null,\"failover_group_name\":null,\"private_network_gateway_id\":null}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "workspace_id": "7474660555039223",
+      "record_id": "JjG6_tx7PK9GFrDwBo9T_uCx",
+      "sku_name": "PREMIUM_DATABRICKS_STORAGE_US_WEST_OREGON",
+      "cloud": "AWS",
+      "usage_start_time": "2026-10-08 20:00:00",
+      "usage_end_time": "2026-10-08 21:00:00",
+      "usage_quantity": "0.000121800000000000",
+      "usage_unit": "DSU",
+      "identity_metadata": "{\"run_as\":null,\"created_by\":null,\"owned_by\":null,\"run_by\":null}",
+      "custom_tags": "{}",
+      "usage_metadata": "{\"cluster_id\":null,\"job_id\":null,\"warehouse_id\":null,\"instance_pool_id\":null,\"node_type\":null,\"job_run_id\":null,\"notebook_id\":null,\"dlt_pipeline_id\":null,\"endpoint_name\":null,\"endpoint_id\":null,\"dlt_update_id\":null,\"dlt_maintenance_id\":null,\"run_name\":null,\"job_name\":null,\"notebook_path\":null,\"central_clean_room_id\":null,\"source_region\":null,\"destination_region\":null,\"app_id\":null,\"app_name\":null,\"metastore_id\":null,\"private_endpoint_name\":null,\"storage_api_type\":\"TYPE_2\",\"budget_policy_id\":null,\"ai_runtime_pool_id\":null,\"ai_runtime_workload_id\":null,\"uc_table_catalog\":null,\"uc_table_schema\":null,\"uc_table_name\":null,\"database_instance_id\":null,\"sharing_materialization_id\":null,\"schema_id\":null,\"usage_policy_id\":null,\"base_environment_id\":null,\"agent_bricks_id\":null,\"index_id\":null,\"catalog_id\":null,\"project_id\":null,\"branch_id\":null,\"table_id\":null,\"supervisor_agent_id\":null,\"networking_client\":null,\"associated_product\":null,\"recipient_id\":null,\"interactive_source\":null,\"snapshot_id\":null,\"ai_gateway\":null,\"genie\":null,\"data_source\":null,\"operation\":null,\"serverless_compute_id\":null,\"entity_full_name\":null,\"failover_group_name\":null,\"private_network_gateway_id\":null}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "workspace_id": "7474660555039223",
+      "record_id": "344e516c2a2ded1139dc496848e658ce",
+      "sku_name": "GENIE_FREE_USAGE",
+      "cloud": "AWS",
+      "usage_start_time": "2026-10-08 18:00:00",
+      "usage_end_time": "2026-10-08 19:00:00",
+      "usage_quantity": "0.173109000000000000",
+      "usage_unit": "DBU",
+      "identity_metadata": "{\"run_as\":\"ramyasri767907@gmail.com\",\"created_by\":null,\"owned_by\":null,\"run_by\":null}",
+      "custom_tags": "{\"databricks-product\":\"genie\"}",
+      "usage_metadata": "{\"cluster_id\":null,\"job_id\":null,\"warehouse_id\":null,\"instance_pool_id\":null,\"node_type\":null,\"job_run_id\":null,\"notebook_id\":null,\"dlt_pipeline_id\":null,\"endpoint_name\":null,\"endpoint_id\":null,\"dlt_update_id\":null,\"dlt_maintenance_id\":null,\"run_name\":null,\"job_name\":null,\"notebook_path\":null,\"central_clean_room_id\":null,\"source_region\":null,\"destination_region\":null,\"app_id\":null,\"app_name\":null,\"metastore_id\":null,\"private_endpoint_name\":null,\"storage_api_type\":null,\"budget_policy_id\":null,\"ai_runtime_pool_id\":null,\"ai_runtime_workload_id\":null,\"uc_table_catalog\":null,\"uc_table_schema\":null,\"uc_table_name\":null,\"database_instance_id\":null,\"sharing_materialization_id\":null,\"schema_id\":null,\"usage_policy_id\":null,\"base_environment_id\":null,\"agent_bricks_id\":null,\"index_id\":null,\"catalog_id\":null,\"project_id\":null,\"branch_id\":null,\"table_id\":null,\"supervisor_agent_id\":null,\"networking_client\":null,\"associated_product\":null,\"recipient_id\":null,\"interactive_source\":null,\"snapshot_id\":null,\"ai_gateway\":null,\"genie\":{\"surface\":\"GENIE_AGENTS\",\"channel\":\"UI\",\"agent_id\":\"01f1c343d1ae11b6bb62fa629be37ead\"},\"data_source\":null,\"operation\":null,\"serverless_compute_id\":null,\"entity_full_name\":null,\"failover_group_name\":null,\"private_network_gateway_id\":null}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "workspace_id": "7474660555039223",
+      "record_id": "e420a8ebfbbae413fed01e770b7d0988",
+      "sku_name": "GENIE_FREE_USAGE",
+      "cloud": "AWS",
+      "usage_start_time": "2026-10-08 18:00:00",
+      "usage_end_time": "2026-10-08 19:00:00",
+      "usage_quantity": "0.255467000000000000",
+      "usage_unit": "DBU",
+      "identity_metadata": "{\"run_as\":\"ramyasri767907@gmail.com\",\"created_by\":null,\"owned_by\":null,\"run_by\":null}",
+      "custom_tags": "{\"databricks-product\":\"genie\"}",
+      "usage_metadata": "{\"cluster_id\":null,\"job_id\":null,\"warehouse_id\":null,\"instance_pool_id\":null,\"node_type\":null,\"job_run_id\":null,\"notebook_id\":null,\"dlt_pipeline_id\":null,\"endpoint_name\":null,\"endpoint_id\":null,\"dlt_update_id\":null,\"dlt_maintenance_id\":null,\"run_name\":null,\"job_name\":null,\"notebook_path\":null,\"central_clean_room_id\":null,\"source_region\":null,\"destination_region\":null,\"app_id\":null,\"app_name\":null,\"metastore_id\":null,\"private_endpoint_name\":null,\"storage_api_type\":null,\"budget_policy_id\":null,\"ai_runtime_pool_id\":null,\"ai_runtime_workload_id\":null,\"uc_table_catalog\":null,\"uc_table_schema\":null,\"uc_table_name\":null,\"database_instance_id\":null,\"sharing_materialization_id\":null,\"schema_id\":null,\"usage_policy_id\":null,\"base_environment_id\":null,\"agent_bricks_id\":null,\"index_id\":null,\"catalog_id\":null,\"project_id\":null,\"branch_id\":null,\"table_id\":null,\"supervisor_agent_id\":null,\"networking_client\":null,\"associated_product\":null,\"recipient_id\":null,\"interactive_source\":null,\"snapshot_id\":null,\"ai_gateway\":null,\"genie\":{\"surface\":\"GENIE_AGENTS\",\"channel\":\"UI\",\"agent_id\":\"01f1c343d1ae11b6bb62fa629be37ead\"},\"data_source\":null,\"operation\":null,\"serverless_compute_id\":null,\"entity_full_name\":null,\"failover_group_name\":null,\"private_network_gateway_id\":null}"
+    }
+  ],
+  "sku_and_pricing_information": [
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2023-12-18 00:00:00",
+      "price_end_time": null,
+      "sku_name": "ENTERPRISE_MODEL_TRAINING_AP_SYDNEY",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.850000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":0.850000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2024-05-09 00:00:00",
+      "price_end_time": "2024-10-31 23:59:59",
+      "sku_name": "PREMIUM_JOBS_SERVERLESS_COMPUTE_US_EAST_N_VIRGINIA",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.350000000000000000,\"promotional\":{\"default\":0.175000000000000000},\"effective_list\":{\"default\":0.175000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2021-05-01 00:00:00",
+      "price_end_time": null,
+      "sku_name": "ENTERPRISE_JOBS_COMPUTE_(PHOTON)",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.200000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":0.200000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2026-07-01 00:00:00",
+      "price_end_time": null,
+      "sku_name": "ENTERPRISE_DATABASE_SERVERLESS_COMPUTE_US_WEST_OREGON",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.520000000000000000,\"promotional\":{\"default\":0.260000000000000000},\"effective_list\":{\"default\":0.260000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2024-09-23 00:00:00",
+      "price_end_time": null,
+      "sku_name": "ENTERPRISE_SERVERLESS_SQL_COMPUTE_US_WEST_CALIFORNIA",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.700000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":0.700000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2024-10-07 00:00:00",
+      "price_end_time": null,
+      "sku_name": "PRIVATE_CONNECTIVITY_ENDPOINT_CANADA",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "HOUR",
+      "pricing": "{\"default\":0.011000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":0.011000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2025-04-30 23:59:59",
+      "price_end_time": null,
+      "sku_name": "ENTERPRISE_ALL_PURPOSE_SERVERLESS_COMPUTE_AP_JAKARTA",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":1.050000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":1.050000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2013-01-01 00:00:00",
+      "price_end_time": "2024-05-09 00:00:00",
+      "sku_name": "ENTERPRISE_ALL_PURPOSE_SERVERLESS_COMPUTE_EUROPE_LONDON",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":1.000000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":1.000000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2023-01-01 00:00:00",
+      "price_end_time": "2024-05-09 00:00:00",
+      "sku_name": "PREMIUM_JOBS_SERVERLESS_COMPUTE_EUROPE_FRANCE",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.390000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":0.390000000000000000}}"
+    },
+    {
+      "account_id": "05ab2a18-d371-4a31-aba6-261724ed267c",
+      "price_start_time": "2021-05-01 00:00:00",
+      "price_end_time": null,
+      "sku_name": "STANDARD_ALL_PURPOSE_COMPUTE_(PHOTON)",
+      "cloud": "AWS",
+      "currency_code": "USD",
+      "usage_unit": "DBU",
+      "pricing": "{\"default\":0.400000000000000000,\"promotional\":{\"default\":null},\"effective_list\":{\"default\":0.400000000000000000}}"
+    }
+  ]
+}
