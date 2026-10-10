@@ -31,9 +31,13 @@ def run_pipeline():
     print("DATABRICKS COST CONNECTOR EXECUTION")
     print("=" * 55)
 
-    # Collect billing usage.
+       # Collect billing usage.
     status, records, err = collector.collect_billing_usage(start, end)
     all_raw["billing_and_usage"] = records
+
+    # Collect pricing before normalization so list costs can be calculated.
+    p_status, pricing_records, p_err = collector.collect_list_prices()
+    all_raw["sku_and_pricing_information"] = pricing_records
 
     timestamps = [
         (str(r.get("usage_start_time")), str(r.get("usage_end_time")))
@@ -46,7 +50,9 @@ def run_pipeline():
 
     for index, raw in enumerate(records):
         try:
-            normalized = normalize_system_usage_record(raw)
+            normalized = normalize_system_usage_record(
+                raw, pricing_records
+            )
             all_normalized.append(normalized.model_dump(mode="json"))
         except Exception as exc:
             normalization_errors.append({
