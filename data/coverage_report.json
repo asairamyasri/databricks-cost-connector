@@ -1,0 +1,172 @@
+[
+  {
+    "category": "billing_and_usage",
+    "purpose": "Tracks DBU consumption and billing usage records",
+    "status": "collected",
+    "record_count": 38,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "System Table: system.billing.usage",
+    "explanation": "Queried system.billing.usage for 2026-10-01T00:00:00Z to 2026-10-09T23:59:59Z."
+  },
+  {
+    "category": "account_and_workspace_consumption",
+    "purpose": "Workspace and account-level consumption",
+    "status": "unsupported",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Billing records and Account/Workspace APIs, where available",
+    "explanation": "A category-specific source/API collector has not been implemented or its availability has not been verified. This status does not mean the feature is absent from the account."
+  },
+  {
+    "category": "cluster_and_compute_consumption",
+    "purpose": "Compute and cluster consumption",
+    "status": "collected",
+    "record_count": 3,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "Billing records and compute metadata, where available",
+    "explanation": "Derived from system.billing.usage metadata; 3 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "sql_warehouse_consumption",
+    "purpose": "SQL warehouse consumption",
+    "status": "collected",
+    "record_count": 3,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "Billing records and SQL warehouse metadata, where available",
+    "explanation": "Derived from system.billing.usage metadata; 3 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "jobs_and_pipeline_consumption",
+    "purpose": "Job and pipeline consumption",
+    "status": "empty",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Billing records and Jobs/Pipelines APIs, where available",
+    "explanation": "Derived from system.billing.usage metadata; 0 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "serverless_consumption",
+    "purpose": "Serverless workload consumption",
+    "status": "empty",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Billing records and workload metadata, where available",
+    "explanation": "Derived from system.billing.usage metadata; 0 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "storage_related_usage",
+    "purpose": "Storage-related consumption",
+    "status": "collected",
+    "record_count": 22,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "Billing records and storage metadata, where available",
+    "explanation": "Derived from system.billing.usage metadata; 22 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "data_transfer_and_network_usage",
+    "purpose": "Data transfer and network-related usage",
+    "status": "unsupported",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Billing records and applicable usage sources",
+    "explanation": "A category-specific source/API collector has not been implemented or its availability has not been verified. This status does not mean the feature is absent from the account."
+  },
+  {
+    "category": "sku_and_pricing_information",
+    "purpose": "SKU details and list pricing",
+    "status": "collected",
+    "record_count": 887,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "System Table: system.billing.list_prices",
+    "explanation": "Queried system.billing.list_prices."
+  },
+  {
+    "category": "list_cost_calculations",
+    "purpose": "Estimated list cost derived from usage and list prices",
+    "status": "collected",
+    "record_count": 25,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Billing usage and pricing data",
+    "explanation": "Calculated list cost for 25 normalized usage records. 13 records had no matching price; their costs were left null."
+  },
+  {
+    "category": "resource_and_workload_attribution",
+    "purpose": "Resource and workload attribution",
+    "status": "collected",
+    "record_count": 3,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "Billing metadata and applicable APIs",
+    "explanation": "Derived from system.billing.usage metadata; 3 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "user_and_service_principal_attribution",
+    "purpose": "User and service-principal attribution",
+    "status": "collected",
+    "record_count": 16,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "Billing identity metadata and applicable APIs",
+    "explanation": "Derived from system.billing.usage metadata; 16 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "tags_and_allocation_metadata",
+    "purpose": "Tags and cost-allocation metadata",
+    "status": "collected",
+    "record_count": 13,
+    "earliest_timestamp": "2026-10-08 18:00:00",
+    "latest_timestamp": "2026-10-10 00:00:00",
+    "required_permission": "Billing custom_tags and applicable APIs",
+    "explanation": "Derived from system.billing.usage metadata; 13 of 38 usage records contained relevant metadata. This is not a separate source-table collection."
+  },
+  {
+    "category": "budgets_alerts_and_cost_controls",
+    "purpose": "Budget policies, alerts, and cost controls",
+    "status": "unsupported",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Applicable Account APIs",
+    "explanation": "A category-specific source/API collector has not been implemented or its availability has not been verified. This status does not mean the feature is absent from the account."
+  },
+  {
+    "category": "corrections_and_restatements",
+    "purpose": "Billing corrections, retractions, and restatements",
+    "status": "unsupported",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "System Table: system.billing.usage",
+    "explanation": "A category-specific source/API collector has not been implemented or its availability has not been verified. This status does not mean the feature is absent from the account."
+  },
+  {
+    "category": "optimization_and_cost_saving",
+    "purpose": "Cost optimization and saving opportunities",
+    "status": "unsupported",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Applicable optimization APIs or system tables",
+    "explanation": "A category-specific source/API collector has not been implemented or its availability has not been verified. This status does not mean the feature is absent from the account."
+  },
+  {
+    "category": "contract_commitment_discount",
+    "purpose": "Contract pricing, commitments, and discounts",
+    "status": "unsupported",
+    "record_count": 0,
+    "earliest_timestamp": "N/A",
+    "latest_timestamp": "N/A",
+    "required_permission": "Applicable Account APIs and billing sources",
+    "explanation": "A category-specific source/API collector has not been implemented or its availability has not been verified. This status does not mean the feature is absent from the account."
+  }
+]
